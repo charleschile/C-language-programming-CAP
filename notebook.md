@@ -44,6 +44,20 @@ mac上用vim 直接vi+文件名
 
 
 
+## 2. 计算
+
+```c
+#include <stdio.h>
+
+int main() {
+	int price = 0; // 定义了一个变量，保存数据的地方
+	printf("请输入金额（元）");
+	scanf("%d", &price);
+	int change = 100 - price;
+	printf("找您%d元\n", change);
+	return 0;
+}
+```
 
 
 
